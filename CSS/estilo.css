@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Fondo*/
+body{
+    background-image: radial-gradient(circle at 87.5% 12.5%, #b3a9a9 0, #b3a9a9 50%, #b3a9a9 100%);
+}
+/*Menu*/
+.menu-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1%;
+    
+}
+.Nombre-titulo{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #0B0B3B;
+}
+.menu-obj{
+    font-weight: 600;
+}
+/*Main*/
+.contenedor-contenido{
+    width: 60%;
+    /*Margenes*/
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 21%;
+    /*Fin-Margenes*/
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+/*Información*/
+.info{
+    width: 50%;
+    background-image: linear-gradient(180deg, #a3a3a3 0, #a3a3a3 50%, #a3a3a3 100%);
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+.texto-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.texto-titulo{
+font-weight: 600;
+color: #2E64FE;
+}
+/*Foto*/
+.foto{
+    
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    
+}
+.fotoperfil{
+width: 250px;
+border-radius: 120px;
+
+}
+/*Botón*/ 
+.btn-github{
+padding: 4px;
+background-color: #2E64FE;
+border-radius: 4px;
+font-weight: 600;
+}
+#icono{
+font-size: 25px;
+color:#2E64FE;
+}
+/*Footer*/
+.footer{
+    font-size: 30px;
+   
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #0A0C12;
+    margin-top: 10%;
+}
+.texto-footer{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+/*Responsive*/
+@media screen  and (max-width:360px){
+    /*Menu-para-celular*/
+.menu-contenedor{
+    width: 60%;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+}
+.menu-obj{
+    font-size: 18px;
+}
+/*Foto-para-celular*/
+.foto{
+    margin-left: 11%;
+    width: 90%;
+}
+.fotoperfil{
+    width: 150px;
+    margin-left: 0%;
+}
+/*Texto-para-celular*/
+.contenedor-contenido{
+    width: 80%;
+    margin-left: 10%;
+}
+.info{
+    width: 95%;
+    text-align: center;
+}
+}

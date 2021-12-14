@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Fondo*/
+body{
+    background-image: radial-gradient(circle at 87.5% 12.5%, #b3a9a9 0, #b3a9a9 50%, #b3a9a9 100%);
+}
+/*Titulo*/
+.titulo{
+    
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+/*Redes*/
+.redes{
+    width: 80%;
+
+    padding: 40px;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.textoredes{
+    display: flex;
+    
+    width: 95%;
+    justify-content: space-around;
+    font-size: 60px;
+    
+}
+/*Responsive*/
+@media screen and (max-width:360px) {
+    .textoredes{
+        display: block;
+        
+    }
+    .id{
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+}
